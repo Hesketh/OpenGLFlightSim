@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{f0021354-fdc7-4fcf-8fe8-c720c9bb1bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Object">
+      <UniqueIdentifier>{ff9deaeb-ad40-49e3-9dea-516a482cb9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Resource">
+      <UniqueIdentifier>{8c9d85ab-35e7-4db7-bf93-c48fcad6666c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Scene">
+      <UniqueIdentifier>{08351d8a-db9d-4c6d-acd9-79704ae47ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Framework">
+      <UniqueIdentifier>{0a49bde2-f658-4cf6-952a-eb8627982a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Framework\OpenGL">
+      <UniqueIdentifier>{5cdf8a22-3f80-47bf-887d-af16ea88db24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Framework\D3D11">
+      <UniqueIdentifier>{e199cba2-4f62-4353-b285-6c8dde5d5a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{805c9690-ef1b-4568-a532-c88359fa7d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Framework">
+      <UniqueIdentifier>{19f24924-f153-4346-8608-32fc11c18e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Framework\OpenGL">
+      <UniqueIdentifier>{9904aee1-ab98-4f2b-9dd5-ae511e17b29a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Framework\D3D11">
+      <UniqueIdentifier>{5f6d2deb-2ffa-48c5-aa06-bf90f56e562a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Object">
+      <UniqueIdentifier>{f8ab0e2a-d5e0-4986-b28d-675b2fa74cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Resource">
+      <UniqueIdentifier>{778a6809-7c83-449e-9ea6-d49f95ee8f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Scene">
+      <UniqueIdentifier>{8c8a6245-7dd2-47be-b037-12bcc6ff7e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Utility">
+      <UniqueIdentifier>{382cd54d-4730-41f9-9be8-ac9d1e7b53ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenGL\OGLCube.h">
+      <Filter>Header Files\Engine\Framework\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\OGLMesh.h">
+      <Filter>Header Files\Engine\Framework\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\OGLShader.h">
+      <Filter>Header Files\Engine\Framework\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\OGLTexture.h">
+      <Filter>Header Files\Engine\Framework\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL\OGLWindow.h">
+      <Filter>Header Files\Engine\Framework\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11Cube.h">
+      <Filter>Header Files\Engine\Framework\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11Mesh.h">
+      <Filter>Header Files\Engine\Framework\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11Shader.h">
+      <Filter>Header Files\Engine\Framework\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11Texture.h">
+      <Filter>Header Files\Engine\Framework\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3D11Window.h">
+      <Filter>Header Files\Engine\Framework\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTexture.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXiiFramework.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageIO.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJFileReader.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWindow.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderBase.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Header Files\Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>Header Files\Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoader.h">
+      <Filter>Header Files\Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLResourceLoader.h">
+      <Filter>Header Files\Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceContainer.h">
+      <Filter>Header Files\Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableNode.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBuilder.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Header Files\Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraNode.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Header Files\Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCodes.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseApplication.h">
+      <Filter>Header Files\Engine\Framework\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenGL\OGLCube.cpp">
+      <Filter>Source Files\Engine\Framework\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\OGLMesh.cpp">
+      <Filter>Source Files\Engine\Framework\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\OGLShader.cpp">
+      <Filter>Source Files\Engine\Framework\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\OGLTexture.cpp">
+      <Filter>Source Files\Engine\Framework\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL\OGLWindow.cpp">
+      <Filter>Source Files\Engine\Framework\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11Cube.cpp">
+      <Filter>Source Files\Engine\Framework\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11Mesh.cpp">
+      <Filter>Source Files\Engine\Framework\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11Shader.cpp">
+      <Filter>Source Files\Engine\Framework\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11Texture.cpp">
+      <Filter>Source Files\Engine\Framework\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3D11Window.cpp">
+      <Filter>Source Files\Engine\Framework\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseApplication.cpp">
+      <Filter>Source Files\Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXiiFramework.cpp">
+      <Filter>Source Files\Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageIO.cpp">
+      <Filter>Source Files\Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>Source Files\Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJFileReader.cpp">
+      <Filter>Source Files\Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Source Files\Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformation.cpp">
+      <Filter>Source Files\Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLResourceLoader.cpp">
+      <Filter>Source Files\Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableNode.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBuilder.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraNode.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Source Files\Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collectable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GFXiiFramework.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GFXiiFramework.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
